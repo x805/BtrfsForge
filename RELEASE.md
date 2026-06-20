@@ -25,9 +25,3 @@
 - Very slow networks may cause SSH timeouts
 - Some custom subvolume layouts might need manual adjustment
 - GRUB detection may fail in non-standard installations
-
-### Installation
-```bash
-curl -O https://raw.githubusercontent.com/x805/btrfsforge/main/btrfsforge.sh
-chmod +x btrfsforge.sh
-sudo ./btrfsforge.sh
