@@ -1,7 +1,3 @@
-
-## RELEASE.md
-
-```markdown
 # BtrfsForge Release Notes
 
 ## Version 1.0.0 - Initial Release
@@ -49,6 +45,6 @@
 
 ### Installation
 ```bash
-curl -O https://raw.githubusercontent.com/yourusername/btrfsforge/main/btrfsforge.sh
+curl -O https://raw.githubusercontent.com/x805/btrfsforge/main/btrfsforge.sh
 chmod +x btrfsforge.sh
 sudo ./btrfsforge.sh
