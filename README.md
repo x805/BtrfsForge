@@ -2,7 +2,9 @@
 
 **Live BTRFS Migration Tool for EndeavourOS / Arch Linux**
 
-BtrfsForge is a powerful live migration tool designed specifically for BTRFS filesystems. It enables seamless transfer of a complete BTRFS installation between machines or disks using BTRFS's native send/receive functionality.
+## What is BtrfsForge?
+
+BtrfsForge is a powerful terminal-based live migration tool designed specifically for BTRFS filesystems. It enables seamless transfer of a complete BTRFS installation from one machine to another over SSH, using a live USB environment on both machines and BTRFS's native send/receive functionality.
 
 ## Why BTRFS is Special
 
@@ -75,17 +77,27 @@ BtrfsForge uses a three-step process:
 
 ## Requirements
 
-- Two machines (source and target) with BTRFS partitions
-- Both booted from EndeavourOS/Arch live USB
-- Network connectivity between machines
+- EndeavourOS (or any Arch/Debian-based) live USB booted on both machines
+- Both machines connected to the same local network
+- dialog — installed automatically if missing
+- btrfs-progs — standard on any live USB with BTRFS support
+- openssh — for the SSH transfer
+- Target partition large enough to hold actual used data (not the
+full source partition size)
 - sudo/root access
 
 ## Installation
 
+### Download the script
 ```bash
-# Download the script
 curl -O https://raw.githubusercontent.com/x805/btrfsforge/main/btrfsforge.sh
 chmod +x btrfsforge.sh
+```
+### How to Run
 
-# Run as root
+Copy btrfsforge.sh to a USB drive (you need 2), then on each machine:
+
+#### Run as root
+```bash
 sudo ./btrfsforge.sh
+```
