@@ -12,23 +12,6 @@
 - fstab UUID correction
 - Support for both UEFI and BIOS systems
 
-### Bug Fixes
-- Fixed SSH key handling to prevent duplicate generation
-- Added proper cleanup trap for temporary files and mounts
-- Improved subvolume detection with error handling
-- Added pre-transfer space verification
-- Enhanced error messages for troubleshooting
-- Fixed variable quoting issues
-
-### Changes from Original
-- Renamed from btrfs-migrate to BtrfsForge
-- Removed version-specific references from script
-- Improved error handling throughout
-- Added SSH connection testing before key exchange
-- Better support for non-standard subvolume naming
-- Enhanced fstab UUID replacement
-- Added comprehensive documentation
-
 ### Requirements
 - Linux kernel 4.14+ with BTRFS support
 - BTRFS tools (btrfs-progs)
