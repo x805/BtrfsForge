@@ -101,3 +101,7 @@ Copy btrfsforge.sh to a USB drive (you need 2), then on each machine:
 ```bash
 sudo ./btrfsforge.sh
 ```
+<img width="1041" height="580" alt="Screenshot_20260621_134122" src="https://github.com/user-attachments/assets/f9b21da2-e94c-4fac-90f5-0cc82aea6af3" />
+<img width="1041" height="580" alt="Screenshot_20260621_132554" src="https://github.com/user-attachments/assets/37a8d252-0423-4de0-bb0c-f357ba866a5b" />
+<img width="1041" height="580" alt="Screenshot_20260621_133325" src="https://github.com/user-attachments/assets/916498cc-c09b-4fe7-8221-550d4e48ede3" />
+
